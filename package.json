@@ -1,0 +1,26 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "scripts": {
+    "presentation": "npx asciidoctor-revealjs presentation.adoc -o presentation.html --revealjs-theme=black --revealjs-transition=slide --revealjs-controls=true --revealjs-progress=true --revealjs-history=true --revealjs-rtl=false --revealjs-slide-number=true --revealjs-plugins=highlight,search,notes,zoom,mathjax",
+    "devcontainer": "npx asciidoctor-revealjs devcontainer.adoc -o devcontainer.html --revealjs-theme=black --revealjs-transition=slide --revealjs-controls=true --revealjs-progress=true --revealjs-history=true --revealjs-rtl=false --revealjs-slide-number=true --revealjs-plugins=highlight,search,notes,zoom,mathjax",
+    "devcontainer2": "npx asciidoctor-revealjs devcontainer_de.adoc -o devcontainer_de.html --revealjs-theme=black --revealjs-transition=slide --revealjs-controls=true --revealjs-progress=true --revealjs-history=true --revealjs-rtl=false --revealjs-slide-number=true --revealjs-plugins=highlight,search,notes,zoom,mathjax",
+    "intro": "npx asciidoctor-revealjs dev-containers-intro.adoc -o dev-containers-intro.html --revealjs-theme=black --revealjs-transition=slide --revealjs-controls=true --revealjs-progress=true --revealjs-history=true --revealjs-rtl=false --revealjs-slide-number=true --revealjs-plugins=highlight,search,notes,zoom,mathjax,chart",
+    "serve": "npx http-server -p 8000 -c-1",
+    "to:pptx": "npx asciidoctor-web-pptx devcontainer.adoc -o devcontainer.pptx"
+  },
+  "keywords": [
+    "asciidoctor",
+    "reveal.js",
+    "presentation",
+    "devcontainer"
+  ],
+  "author": "Volker Benders",
+  "license": "MIT",
+  "description": "Consistent environment for creating presentations with Asciidoctor and Reveal.js",
+  "dependencies": {
+    "@asciidoctor/reveal.js": "^5.2.0",
+    "asciidoctor": "^3.0.4",
+    "asciidoctor-web-pptx": "^1.0.0"
+  }
+}

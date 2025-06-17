@@ -1,0 +1,18 @@
+= https://ocs.asciidoctor.org/reveal.js-converter/latest/converter/features/[Write your Reveal.js presentation in AsciiDoc]
+:source-highlighter: coderay
+
+
+== TL;DR
+All-in-one development container for Reveal.js presentations written in AsciiDoc.
+
+== How 2 use
+1. Write you presenttion using asciidoc
+2. Setup a convert run task in `package.json`
+3. Convert your presentation
+4. Preview - either with Live Server or the include node http-server
+
+== Links
+* https://docs.asciidoctor.org/reveal.js-converter/latest/setup/node-js-setup/[asciidoctor-reveal.js setup]
+* https://asciidoctor.org/docs/asciidoctor-revealjs/[AsciiDoc to Reveal.js documentation]
+* 
+*
