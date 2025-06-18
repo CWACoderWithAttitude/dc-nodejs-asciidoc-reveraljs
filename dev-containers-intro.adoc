@@ -1,16 +1,19 @@
-= Developing in Containers
+= Developing with Containers
 :revealjs_theme: sky
 :revealjs_hash: true
 :source-highlighter: highlight.js
 :revealjs_plugins: math, notes, search, zoom, highlight, markdown, chart
 
+[%notitle]
+== Teaser
+image::images/devcontainers/works_on_my_machine.png[canvas,size=contain]
 == Roadmap
 We'll cover:
 [%step]
 * What are dev containers?
 * Why use dev containers?
 * How to set up a dev container in VS Code
-* Complete example 
+* https://github.com/CWACoderWithAttitude/dc-spring-boot-mvp[Dev Container Example: Spring Boot MVP]
 
 === Example 
 [%step]

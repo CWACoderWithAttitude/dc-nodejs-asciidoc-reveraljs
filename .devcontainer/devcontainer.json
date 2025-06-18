@@ -35,5 +35,6 @@
   "service": "dc-nodejs-asciidoc-reveraljs",
   "workspaceFolder": "/src",
   "remoteUser": "root",
+  "postStartCommand": "npm install",
   "shutdownAction": "stopCompose"
 }

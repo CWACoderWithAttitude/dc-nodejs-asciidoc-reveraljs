@@ -9,7 +9,7 @@ All-in-one development container for Reveal.js presentations written in AsciiDoc
 1. Write you presenttion using asciidoc
 2. Setup a convert run task in `package.json`
 3. Convert your presentation
-4. Preview - either with Live Server or the include node http-server
+4. Preview - either with Live Server (right click any html page) or the include node http-server
 
 == Links
 * https://docs.asciidoctor.org/reveal.js-converter/latest/setup/node-js-setup/[asciidoctor-reveal.js setup]
